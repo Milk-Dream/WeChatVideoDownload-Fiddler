@@ -17,21 +17,27 @@
 # 使用插件
 
 1.找到Fiddler图标,一般在桌面
+
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/2265f871-9c1d-4ef3-a640-8160c248df31)
 
 2.右键此图标,选择属性
+
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/2fcbe195-4f17-4314-84fb-78364ec8e8c6)
 
 3.选择打开文件所在的位置(F)
+
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/a0bcbe37-ea95-4c68-8b00-65d7a2eebf6e)
 
 4.找到Scripts文件夹
+
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/7f390c6b-0416-458b-af8d-451d952cdd56)
 
 5.将WeChatVideoDownload-Fiddler.dll插件放进去
+
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/7a04b1ec-f0ca-429a-8b3a-51eb2b0b745d)
 
 6.显示此页面没报错,说明安装成功,现在就可以愉快的使用该插件
+
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/6e7c2f41-cb34-45c9-9a25-cb428276780c)
 
 
