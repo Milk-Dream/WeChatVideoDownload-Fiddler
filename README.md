@@ -13,10 +13,12 @@
 # 安装要求
 
 1.要求有一个4版本以上的Fiddler
-<br/>
+<br/><br/>
 2.电脑要有.NET4.6.1以上的环境,安装插件不报错说明有该环境
 
-.NET 4.6.1安装链接:https://support.microsoft.com/zh-tw/topic/%E9%81%A9%E7%94%A8%E4%BA%8E-windows-%E7%9A%84-net-framework-4-6-1-%E9%9B%A2%E7%B7%9A%E5%AE%89%E8%A3%9D%E7%A8%8B%E5%BC%8F-842e545a-bad5-c538-e491-578d017e677c
+.NET 4.6.1安装链接:
+<a href="https://support.microsoft.com/zh-tw/topic/%E9%81%A9%E7%94%A8%E4%BA%8E-windows-%E7%9A%84-net-framework-4-6-1-%E9%9B%A2%E7%B7%9A%E5%AE%89%E8%A3%9D%E7%A8%8B%E5%BC%8F-842e545a-bad5-c538-e491-578d017e677c">.NET 4.6.1下载安装地址</a>
+
 
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/5a63ab78-760e-4555-a5fa-2b661e524bd1)
 
