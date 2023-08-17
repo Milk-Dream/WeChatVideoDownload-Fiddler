@@ -1,15 +1,21 @@
 # WeChatVideoDownload-Fiddler
+
 小白视频号助手是微信视频号下载的Fiddler插件,使用此插件你可以很轻松的下载微信视频号的视频内容,这个微信视频号插件使用C# .NETFramework4.7.1开发
+
 
 ![JX52GZB1IB CV~~QL57H}AR](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/ea360bc7-64ea-4e88-bb63-df542d96042c)
 
 
 # 上手指南
+
 以下指南将帮助你在本地机器上安装和运行该项目，进行开发和测试。关于如何将该项目部署到在线环境，请参考部署小节。
 
 # 安装要求
+
 1.要求有一个4版本以上的Fiddler
+
 2.电脑要有.NET4.6.1以上的环境,安装插件不报错说明有该环境
+
 .NET 4.6.1安装链接:https://support.microsoft.com/zh-tw/topic/%E9%81%A9%E7%94%A8%E4%BA%8E-windows-%E7%9A%84-net-framework-4-6-1-%E9%9B%A2%E7%B7%9A%E5%AE%89%E8%A3%9D%E7%A8%8B%E5%BC%8F-842e545a-bad5-c538-e491-578d017e677c
 
 ![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/5a63ab78-760e-4555-a5fa-2b661e524bd1)
