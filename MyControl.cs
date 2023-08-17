@@ -306,5 +306,10 @@ namespace Fiddler视频号助手
                 listView1.SelectedItems[0].Remove();
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("已经复制1080p的github地址,请前往下载", "小白老师s提示你");
+        }
     }
 }

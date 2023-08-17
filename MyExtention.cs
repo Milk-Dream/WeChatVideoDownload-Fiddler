@@ -51,7 +51,7 @@ namespace Fiddler视频号助手
             this.tabPage.Controls.Add(this.myCtrl);
             //为选项卡添加icon图标，这里使用Fiddler 自带的
             //this.tabPage.ImageIndex = (int)Fiddler.SessionIcons.Timeline;
-            FiddlerApplication.UI.tabsViews.ImageList.Images.Add("FiddlersphIcon", Properties.Resources.sph);
+            FiddlerApplication.UI.tabsViews.ImageList.Images.Add("FiddlersphIcon", WeChatVideoDownload.Properties.Resources.sph);
             this.tabPage.ImageIndex = FiddlerApplication.UI.tabsViews.ImageList.Images.IndexOfKey("FiddlersphIcon");
             //将tabTage选项卡添加到Fidder UI的Tab 页集合中
             FiddlerApplication.UI.tabsViews.TabPages.Add(this.tabPage);
