@@ -3,7 +3,8 @@
 小白视频号助手是微信视频号下载的Fiddler插件,使用此插件你可以很轻松的下载微信视频号的视频内容,这个微信视频号插件使用C# .NETFramework4.7.1开发
 
 
-![JX52GZB1IB CV~~QL57H}AR](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/ea360bc7-64ea-4e88-bb63-df542d96042c)
+![image](https://github.com/Milk-Dream/WeChatVideoDownload-Fiddler/assets/52303998/66478cc6-8c88-4245-afd3-747630f34514)
+
 
 
 # 上手指南
