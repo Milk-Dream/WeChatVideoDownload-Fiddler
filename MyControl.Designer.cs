@@ -51,7 +51,6 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.text_log = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -69,6 +68,8 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.text_log = new System.Windows.Forms.TextBox();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -136,6 +137,7 @@
             // 
             // splitContainer4.Panel1
             // 
+            this.splitContainer4.Panel1.Controls.Add(this.webBrowser1);
             this.splitContainer4.Panel1.Controls.Add(this.btn_selectSave);
             this.splitContainer4.Panel1.Controls.Add(this.text_save);
             this.splitContainer4.Panel1.Controls.Add(this.label2);
@@ -341,15 +343,6 @@
             this.columnHeader4.Text = "进度";
             this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // text_log
-            // 
-            this.text_log.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.text_log.Location = new System.Drawing.Point(0, 0);
-            this.text_log.Multiline = true;
-            this.text_log.Name = "text_log";
-            this.text_log.Size = new System.Drawing.Size(892, 175);
-            this.text_log.TabIndex = 0;
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -377,6 +370,7 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1.Text = "预览视频";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -475,6 +469,26 @@
             this.toolStripMenuItem12.Text = "关于本软件";
             this.toolStripMenuItem12.Click += new System.EventHandler(this.toolStripMenuItem12_Click);
             // 
+            // text_log
+            // 
+            this.text_log.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.text_log.Location = new System.Drawing.Point(0, 0);
+            this.text_log.Multiline = true;
+            this.text_log.Name = "text_log";
+            this.text_log.Size = new System.Drawing.Size(892, 175);
+            this.text_log.TabIndex = 0;
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(5, 243);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(44, 50);
+            this.webBrowser1.TabIndex = 4;
+            this.webBrowser1.Url = new System.Uri("https://xiaobai-1251578045.cos-website.ap-guangzhou.myqcloud.com/%E5%B0%8F%E7%99%" +
+        "BD%E7%82%B9/index.html", System.UriKind.Absolute);
+            this.webBrowser1.Visible = false;
+            // 
             // MyControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -549,5 +563,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
+        private System.Windows.Forms.WebBrowser webBrowser1;
     }
 }

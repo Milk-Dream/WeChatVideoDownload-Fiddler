@@ -309,7 +309,17 @@ namespace Fiddler视频号助手
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("已经复制1080p的github地址,请前往下载", "小白老师s提示你");
+            Clipboard.SetText("https://github.com/Milk-Dream/XBDWeChatVideoDownload");
+            MessageBox.Show("已经复制1080p的github地址,请前往下载,github需要梯子,记得先关闭fd,再打开梯子进行访问", "小白老师s提示你");
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count > 0)
+            {
+                System.Diagnostics.Process.Start(listView1.SelectedItems[0].SubItems[2].Text);
+            }
+                      
         }
     }
 }
